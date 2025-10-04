@@ -6,6 +6,7 @@ import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 const readex_pro = Readex_Pro({ subsets: ["latin"] });
+
 export const metadata: Metadata = {
   title: "تجوال - شركة السياحة والسفر",
   description:

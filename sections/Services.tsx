@@ -78,7 +78,7 @@ const Services = () => {
               <AnimationUp key={index} >
                 <div className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 overflow-hidden">
                   <div
-                    className={`h-2 bg-gradient-to-r from-rose-500 to-pink-500`}
+                    className={`h-2 bg-gradient-to-r ${service.color}`}
                   ></div>
                   <div className="p-8">
                     <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
